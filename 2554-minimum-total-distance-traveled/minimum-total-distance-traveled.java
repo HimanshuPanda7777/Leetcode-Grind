@@ -7,7 +7,7 @@ class Solution {
         int m = factory.length;
 
         long INF = (long)1e18;
-        long[][] dp = new long[n + 2][m + 1];
+        long[][] dp = new long[n + 1][m + 1];
 
         for (int i = 0; i <= n; i++)
             Arrays.fill(dp[i], INF);
